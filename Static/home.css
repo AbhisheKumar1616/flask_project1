@@ -27,6 +27,8 @@ p{
 	line-height: 10px;
 	letter-spacing: 0.2rem;
 	text-decoration: none;
+	margin-top: 20px;
+	margin-bottom: 30px;
 }
 
 
@@ -69,4 +71,39 @@ section{
 
 .dark_shade{
 	background-color: rgba(0, 0, 0, 0.1);
+}
+
+
+/*Website links*/
+#website-links{
+	display: inline-block;
+	margin-left: 2px;
+}
+
+#website-links a .image-dimention{
+	width: 25px;
+	height: 25px;
+	margin-bottom: 4px;
+	display: inline;
+	border-radius: 4px;
+}
+
+#website-links a .image-dimention:hover{
+	box-shadow: 0px 0px 6px 4px rgba(0,0,0,0.6);
+}
+
+/*#contact-div{
+	border-bottom: 2px solid black;
+}
+#contant-content{
+	border-top: 4px solid black;
+}*/
+
+.loc{
+	margin-top: 0px;
+	line-height: 1.7em;
+}
+.loc img{
+	width: 13px;
+	height: 13px;
 }
