@@ -50,12 +50,8 @@
             <h1 class="heading">Job Vacancies</h1>
             <div>
             	{% for job in jobs %}
-            	<div>
-            		<h4 class="job_jd"><b>{{job["Title"]}}</b></h4>
-                    <div><b>Location: </b>{{job["Location"]}}</div>
-                    {% if "Salary" in job %}
-                        <div><b>Salary:</b> {{job["Salary"]}}</div>
-                    {% endif %}
+            	<div id="job_discription">
+            			{% include 'job_div.html' %}
             	</div>
               {% endfor %}
             </div>
