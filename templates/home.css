@@ -1,0 +1,72 @@
+body{
+	background-color: rgba(230,230,230,0.6);
+}
+p{
+	font-size: 20px;
+	text-align: justify;
+	line-height: 1.1 rem;
+	letter-spacing: 0.3px;
+}
+#jobshala h1{
+	text-align: center;
+}
+#jobshala img{
+	height: 65vh;
+	width: 100vw;
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+	opacity: 0.9;
+}
+
+.heading{
+	font-size: 3rem;
+	font-family: serif;
+	color: rgba(0, 0, 0, 0.7);
+	text-align: center;
+	line-height: 10px;
+	letter-spacing: 0.2rem;
+	text-decoration: none;
+}
+
+
+.heading:hover{
+	color: rgba(0, 0, 100, 0.4);
+	transition: color 0.7s, bottom-border 0.4s;
+
+}
+
+.horizontal-list{
+	list-style: none;
+	padding-left: 0px;
+	text-align: center;
+}
+
+.horizontal-list li{
+	display: inline-block;
+	margin: 8px;
+	font-size: 20px;
+}
+
+.horizontal-list li a{
+	text-decoration: none;
+	color: rgba(0, 0, 100, 0.7);
+}
+
+.horizontal-list li a:hover{
+	color: rgba(0, 0, 100, 0.3);
+	text-decoration: underline;
+	transition: color 0.7s, bottom-border 0.4s;
+}
+
+section{
+	padding:15px 50px;
+}
+
+.light_shade{
+	background-color: rgba(0, 0, 0, 0.05);
+}
+
+.dark_shade{
+	background-color: rgba(0, 0, 0, 0.1);
+}
